@@ -9,6 +9,7 @@ Create a Blob storage account in the Azure portal and create a container called 
 # Step 3: Create the Azure function application
 Create a new Azure function application using Azure Functions Core Tools. On the command line, execute the following command:
 
+See the file.
 
 You can use HTTP requests to test function applications. By passing the URL of the image as a parameter, the function downloads, processes, and saves the image to Azure Blob storage.
 
