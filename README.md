@@ -8,3 +8,8 @@ First, you need to make sure you already have an Azure account and that you have
 Create a Blob storage account in the Azure portal and create a container called images to store the image files.
 # Step 3: Create the Azure function application
 Create a new Azure function application using Azure Functions Core Tools. On the command line, execute the following command:
+
+
+You can use HTTP requests to test function applications. By passing the URL of the image as a parameter, the function downloads, processes, and saves the image to Azure Blob storage.
+
+This is just a simple example of how to use Python and Azure functions to create a simple image processing application. In practice, you can extend and customize this solution according to your own needs.
